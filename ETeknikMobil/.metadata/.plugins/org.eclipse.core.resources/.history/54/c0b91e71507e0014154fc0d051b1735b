@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/giris_arka_plan">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="39dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/menu_arka_plan"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="25dp" >
+        
+        <TableRow>
+
+	    	<ImageButton
+	    	    android:id="@+id/haritaImageButton"
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:src="@drawable/harita" />
+
+	    	<ImageButton
+		        android:id="@+id/kimlerImageButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/kimler" />
+
+	    	<ImageButton
+	    	    android:id="@+id/profilImageButton"
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:src="@drawable/stok" />
+    
+	    </TableRow>
+
+        <TableRow android:paddingTop="10dp" >
+
+            <ImageButton
+                android:id="@+id/ImageButton02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mesaj" />
+
+            <ImageButton
+                android:id="@+id/ImageButton01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/profil" />
+
+            <ImageButton
+                android:id="@+id/ayarlarImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ayarlar" />
+
+        </TableRow>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </GridLayout>
+
+    </TableLayout>
+
+</RelativeLayout>
